@@ -13,7 +13,7 @@ const SignUpPage = () => {
           <div>
             <img className='mx-auto h-20 w-auto' src={dingLogo} alt='ding' />
             <h2 className='text-center text-2xl font-bold tracking-tight text-red-500'>
-              Sign in to your account.
+              Create a new account.
             </h2>
           </div>
           <form method='POST' className='space-y-4 mt-5' action='#'>
@@ -32,7 +32,7 @@ const SignUpPage = () => {
             <PasswordInputs />
             <div>
               <Button
-                buttonText={'Sign Up'}
+                buttonText={'Create account'}
                 addedClassName={'w-full'}
               />
             </div>

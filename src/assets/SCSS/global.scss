@@ -17,4 +17,41 @@ body {
       }
     }
   }
+
+  // sections styling
+
+  section {
+    .feeds_box {
+      width: 50%;
+      margin: 0px auto;
+    }
+  }
+
+  // avatar_box
+
+  .avatar_box {
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  // icon buttons
+
+  .ico_btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  // global button style
+
+  button {
+    border-radius: 50px;
+
+    .disabled {
+      opacity: 0.5 !important;
+      cursor: not-allowed !important;
+    }
+  }
 }
