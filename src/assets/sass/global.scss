@@ -8,6 +8,7 @@ body {
 
 :root {
   --primary-color: rgba(239, 68, 68, 1);
+  --secondary-color: rgb(219, 133, 21);
 }
 
 .container {
@@ -75,7 +76,7 @@ button {
   position: absolute;
   bottom: 0%;
   left: 0%;
-  height: 10px;
+  height: 5px;
   width: 100%;
   background-color: var(--primary-color);
   margin-bottom: 10px;
@@ -127,6 +128,90 @@ button {
   gap: 2rem;
 }
 
+.sales_one .sales_wrap h3 span {
+  position: relative;
+}
+
+.sales_one .sales_wrap h3 span::after {
+  content: '';
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  height: 3px;
+  margin-bottom: 5px;
+  width: 100%;
+  background-color: var(--primary-color);
+}
+
+// steps
+.steps {
+  padding: 7rem 0px;
+}
+
+.steps_card_wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.steps_card {
+  padding: 50px;
+  border-radius: 8px;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.steps_card .details_wrap {
+  position: absolute;
+  padding: 20px;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  opacity: 0;
+  transform: scale(0.95);
+  transition: .3s ease-in;
+}
+
+.steps_card:hover .details_wrap {
+  opacity: 1;
+  transform: scale(1);
+}
+
+// portfolio
+.portfolio_wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pf_detail {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .3s ease-in;
+  transform: scale(0.91);
+  opacity: 0;
+}
+
+.pf_card:hover .pf_detail {
+  transform: scale(1);
+  opacity: 1;
+}
+
 // animations
 @keyframes bounce {
 
@@ -143,6 +228,12 @@ button {
 }
 
 // responsive design
+@media screen and (max-width: 1024px) {
+  .steps_card_wrap {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 @media screen and (max-width: 768px) {
   nav .navbar-links {
     position: fixed;
@@ -223,6 +314,16 @@ button {
       font-size: .8rem;
     }
   }
+
+  // steps
+  .steps_card_wrap {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  // portfolio
+  .portfolio_wrap {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -255,6 +356,11 @@ button {
 
   // sales one 
   .sales_one .sales_row_wrap {
+    grid-template-columns: 1fr;
+  }
+
+  // steps
+  .steps_card_wrap {
     grid-template-columns: 1fr;
   }
 }

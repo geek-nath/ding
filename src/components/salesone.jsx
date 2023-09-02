@@ -15,7 +15,7 @@ const SaleOne = () => {
             <div className="flex sales_wrap items-center h-full">
               <div className="text-white">
                 <h3 className='text-3xl font-bold'>
-                  Ding does creative works. <br /> We ready to help you.
+                  Ding does <span>creative</span> works. <br /> We ready to help you.
                 </h3>
                 <p className="mt-5 text-gray-500">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
