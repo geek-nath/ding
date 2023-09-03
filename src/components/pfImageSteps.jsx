@@ -27,7 +27,7 @@ const PfImageSteps = () => {
                         <h1 className='text-gray-900 capitalize font-bold text-xl'>
                           {title}
                         </h1>
-                        <p className="mt-3 text-gray-400 text-sm">
+                        <p className="mt-3 font-light leading-6 text-gray-400 text-sm">
                           {details}
                         </p>
                       </div>
@@ -55,7 +55,7 @@ const PfImageSteps = () => {
                         <h1 className='text-gray-900 capitalize font-bold text-xl'>
                           {title}
                         </h1>
-                        <p className="mt-3 text-gray-400 text-sm">
+                        <p className="mt-3 font-light leading-6 text-gray-400 text-sm">
                           {details}
                         </p>
                       </div>

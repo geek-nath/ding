@@ -5,6 +5,8 @@ import SaleOne from '../components/salesone'
 import Steps from '../components/steps'
 import Portfolio from '../components/portfolio'
 import PfImageSteps from '../components/pfImageSteps'
+import SalesTwo from '../components/salesTwo'
+import Teams from '../components/teams'
 
 const Home = () => {
   return (
@@ -16,6 +18,8 @@ const Home = () => {
         <Steps />
         <Portfolio />
         <PfImageSteps />
+        <SalesTwo />
+        <Teams />
       </main>
     </>
   )

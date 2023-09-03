@@ -60,7 +60,7 @@ button {
   justify-content: center;
   align-items: center;
   position: relative;
-  // background-attachment: fixed;
+  background-attachment: fixed;
 }
 
 .hero .hero_text {
@@ -226,6 +226,31 @@ button {
   font-size: 2.5rem;
   font-weight: 700;
   color: var(--primary-color) !important;
+}
+
+// sales two
+.sales_two_wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sales_two_img_wrap {
+  height: 100%;
+  background: url('../../assets/images/6.jpg');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.sales_two_content {
+  padding: 5rem;
+  background: linear-gradient(60deg, var(--primary-color) 60%, var(--secondary-color));
+}
+
+// team
+.team {
+  padding: 5rem 0px;
 }
 
 // animations

@@ -26,7 +26,7 @@ const Services = () => {
                     <h4 className='text-gray-900 text-lg font-bold'>
                       {title}
                     </h4>
-                    <p className="text-sm font-light text-gray-400">
+                    <p className="text-sm leading-6 font-light text-gray-400">
                       {text}
                     </p>
                   </div>
