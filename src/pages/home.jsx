@@ -4,6 +4,7 @@ import Services from '../components/services'
 import SaleOne from '../components/salesone'
 import Steps from '../components/steps'
 import Portfolio from '../components/portfolio'
+import PfImageSteps from '../components/pfImageSteps'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <SaleOne />
         <Steps />
         <Portfolio />
+        <PfImageSteps />
       </main>
     </>
   )

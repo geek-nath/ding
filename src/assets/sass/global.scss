@@ -60,7 +60,7 @@ button {
   justify-content: center;
   align-items: center;
   position: relative;
-  background-attachment: fixed;
+  // background-attachment: fixed;
 }
 
 .hero .hero_text {
@@ -212,6 +212,22 @@ button {
   opacity: 1;
 }
 
+.pf_image_step {
+  padding: 5rem 0px;
+}
+
+.pf_steps_wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.step_badge {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color) !important;
+}
+
 // animations
 @keyframes bounce {
 
@@ -324,6 +340,10 @@ button {
   .portfolio_wrap {
     grid-template-columns: 1fr 1fr;
   }
+
+  .pf_steps_wrap {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -361,6 +381,11 @@ button {
 
   // steps
   .steps_card_wrap {
+    grid-template-columns: 1fr;
+  }
+
+  // portfolio
+  .pf_steps_wrap {
     grid-template-columns: 1fr;
   }
 }
