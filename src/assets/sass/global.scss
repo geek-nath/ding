@@ -253,6 +253,41 @@ button {
   padding: 5rem 0px;
 }
 
+.teams_wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.team_profile_img {
+  // height: 300px;
+  overflow: hidden;
+}
+
+.social_links_wrap {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  opacity: 0;
+  transition: .5s ease-in;
+  margin-bottom: 10px;
+}
+
+.team_profile_wrap:hover .social_links_wrap {
+  opacity: 1;
+}
+
+.social_icon_wrap {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, var(--primary-color) 30%, var(--secondary-color));
+  border-radius: 50%;
+}
+
 // animations
 @keyframes bounce {
 
