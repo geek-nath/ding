@@ -16,7 +16,7 @@ const Steps = () => {
             {stepsCardsData.map((cards, index) => {
               const { title, step, details, icon } = cards;
               return (
-                <div className='steps_card duration-300 hover:shadow-lg relative ring-1 ring-gray-200' key={index}>
+                <div className='steps_card duration-300 shadow-lg relative ring-1 ring-gray-200' key={index}>
                   <div className="text-center">
                     <h1 className='text-red-500 text-8xl'>
                       {icon}

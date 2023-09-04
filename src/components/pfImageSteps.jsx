@@ -39,8 +39,10 @@ const PfImageSteps = () => {
                 })}
               </div>
             </div>
-            <div className='pf_steps_img_wrap flex justify-center'>
-              <img src={MobilePngImage} width={'70%'} alt='responsive design' />
+            <div className='pf_steps_img_wrap'>
+              <div className='flex justify-center items-center h-full'>
+                <img src={MobilePngImage} width={'70%'} alt='responsive design' />
+              </div>
             </div>
             <div className='pf_steps_two_wrap flex items-center'>
               <div className="pf_steps_content">
