@@ -7,6 +7,9 @@ import Portfolio from '../components/portfolio'
 import PfImageSteps from '../components/pfImageSteps'
 import SalesTwo from '../components/salesTwo'
 import Teams from '../components/teams'
+import Achivements from '../components/achivements'
+import Blog from '../components/blog'
+import Contact from '../components/contact'
 
 const Home = () => {
   return (
@@ -20,6 +23,9 @@ const Home = () => {
         <PfImageSteps />
         <SalesTwo />
         <Teams />
+        <Achivements />
+        <Blog />
+        <Contact />
       </main>
     </>
   )

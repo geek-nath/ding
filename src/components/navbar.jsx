@@ -9,8 +9,8 @@ const Navbar = () => {
     { name: "Services", path: "/services", isActive: false },
     { name: "About", path: "/about", isActive: false },
     { name: "Portfolio", path: "/portfolio", isActive: false },
-    { name: "Blog", path: "/blog", isActive: false },
-    { name: "Contact", path: "/contact", isActive: false }
+    { name: "Reviews", path: "/", isActive: false },
+    { name: "Blog", path: "/blog", isActive: false }
   ]
   const [navbar, setNavbar] = useState(false);
   const openMenu = () => {
@@ -50,10 +50,10 @@ const Navbar = () => {
             </div>
           </div>
           <div className="navbar-button">
-            <Link to={'/signup'} className='no-underline'>
+            <Link to={'/'} className='no-underline'>
               <Button
                 variant={'red-500'}
-                text={'Get Started'}
+                text={'Contact Us'}
                 color={'text-white'}
                 ringColor={'ring-red-500'}
               />

@@ -1,8 +1,8 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages/home'
-import Signup from './pages/signup'
 import Navbar from './components/navbar'
+import Footer from './components/footer'
 
 const App = () => {
   return (
@@ -11,8 +11,8 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/signup' element={<Signup />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   )

@@ -288,6 +288,59 @@ button {
   border-radius: 50%;
 }
 
+// achivements
+.achivements {
+  padding: 5rem 0px;
+}
+
+.achivements_wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+// blog
+.blog {
+  padding: 5rem 0px;
+}
+
+.blog_posts_wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.date_wrap {
+  background: linear-gradient(180deg, rgb(17 24 39 / 1) 50%, var(--primary-color) 50%);
+  width: 50px;
+  height: 60px;
+  overflow: hidden;
+}
+
+.blog_post:hover .post_title {
+  text-decoration: underline;
+}
+
+// contact 
+
+.contact {
+  padding: 5rem 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact_container {
+  width: 500px;
+}
+
+.form_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
 // animations
 @keyframes bounce {
 
@@ -409,6 +462,27 @@ button {
   .sales_two_wrap {
     grid-template-columns: 1fr;
   }
+
+  // teams
+  .teams_wrap {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  // achivements
+  .achivements_wrap {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  // blog
+  .blog_posts_wrap {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  // contact
+  .contact_container {
+    width: 100%;
+    padding: 20px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -457,5 +531,20 @@ button {
   // sales two
   .sales_two_content {
     padding: 5rem 1.5rem;
+  }
+
+  // teams
+  .teams_wrap {
+    grid-template-columns: 1fr;
+  }
+
+  // achivements
+  .achivements_wrap {
+    grid-template-columns: 1fr;
+  }
+
+  // blog
+  .blog_posts_wrap {
+    grid-template-columns: 1fr;
   }
 }
