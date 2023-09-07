@@ -8,12 +8,12 @@ import PfSix from '../assets/images/pf (6).jpg'
 
 const Portfolio = () => {
   const porfilioData = [
-    { image: PfOne, title: "Code Io" },
-    { image: PfTwo, title: "Code Io" },
-    { image: PfThree, title: "Code Io" },
-    { image: PfFour, title: "Code Io" },
-    { image: PfFive, title: "Code Io" },
-    { image: PfSix, title: "Code Io" }
+    { image: PfOne, title: "Money Hiest" },
+    { image: PfTwo, title: "Strawberry milk" },
+    { image: PfThree, title: "Unknown T" },
+    { image: PfFour, title: "Moon Fall" },
+    { image: PfFive, title: "Psycho YP" },
+    { image: PfSix, title: "Abstract Paint" }
   ]
   return (
     <section className='portfolio'>
