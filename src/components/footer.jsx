@@ -12,7 +12,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="text-gray-500">
-              Designed With ❤️ by <a href="#" className='no-underline text-red-500'>Nathaniel</a>
+              Designed With ❤️ by <a href="." className='no-underline text-red-500'>Nathaniel</a>
             </div>
           </div>
         </div>
